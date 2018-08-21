@@ -1,0 +1,23 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1534817555232" stop="1534817555235">
+  <description>This is the tests collection phase. Failures are modules that failed to collect.</description>
+  <name>test_collection_phase</name>
+  <title>Collection phase</title>
+  <labels/>
+  <test-cases>
+    <test-case start="1534817555234" status="broken" stop="1534817555235">
+      <name>test_login</name>
+      <failure>
+        <message>failed</message>
+        <stack-trace>import file mismatch:
+imported module 'scripts.test_login' has this __file__ attribute:
+  /Users/Yoson/Desktop/allure/scripts/test_login.py
+which is not the same as the test file we want to collect:
+  /Users/Yoson/Movies/未命名文件夹/移动自动化-07/02-代码/02-allure/scripts/test_login.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
